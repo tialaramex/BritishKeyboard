@@ -1,0 +1,14 @@
+# British QWERTY keyboard layout
+# missing handling of 102nd key which contains hash and tilde
+# Nick Lamb - 2012-12-23
+type OVERLAY
+key 2 {
+	label:	'2'
+	base:	'2'
+	shift:	'"'
+}
+key APOSTROPHE {
+	label:	'\''
+	base:	'\''
+	shift:	'@'
+}
