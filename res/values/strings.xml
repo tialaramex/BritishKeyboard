@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Nick\'s Extra Keyboard Layouts</string>
-    <string name="keyboard_layouts_label">Nick\'s Layouts</string>
-    <string name="keyboard_layout_english_gb_label">British QWERTY</string>
+    <string name="keyboard_layouts_label">Nick\'s Extra Layouts</string>
+    <string name="keyboard_layout_english_gb_label">English (UK)</string>
 </resources>
