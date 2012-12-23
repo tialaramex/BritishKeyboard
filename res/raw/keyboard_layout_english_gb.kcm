@@ -1,5 +1,6 @@
 # British QWERTY keyboard layout
 # missing handling of 102nd key which contains hash and tilde
+# UTF-8 encoded
 # Nick Lamb - 2012-12-23
 type OVERLAY
 key 2 {
@@ -7,8 +8,18 @@ key 2 {
 	base:	'2'
 	shift:	'"'
 }
+key 3 {
+	label:	'3'
+	base:	'3'
+	shift:	'\u00a3'
+}
 key APOSTROPHE {
 	label:	'\''
 	base:	'\''
 	shift:	'@'
+}
+key GRAVE {
+	label:	'`'
+	base:	'`'
+	shift:	'\u00ac'
 }
