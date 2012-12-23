@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
       package="org.tlrmx.gbkeyboard"
-      android:versionCode="1"
-      android:versionName="1.0">
+      android:versionCode="102"
+      android:versionName="1.2">
+
+ <!-- API level 16 is needed for KEYBOARD_LAYOUTS etc. -->
+ <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="17" />
+
+ <!-- by default touchscreen is required by Android apps, we don't need one -->
+ <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+
     <application android:label="@string/app_name" >
+
 <!-- keyboard -->
 
  <receiver android:name=".InputDeviceReceiver"
