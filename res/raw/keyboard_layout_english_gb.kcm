@@ -13,6 +13,11 @@ key 3 {
 	base:	'3'
 	shift:	'\u00a3'
 }
+key 4 {
+	label:	'4'
+	base:	'4'
+	ralt:	'\u20ac'
+}
 key APOSTROPHE {
 	label:	'\''
 	base:	'\''
@@ -22,4 +27,5 @@ key GRAVE {
 	label:	'`'
 	base:	'`'
 	shift:	'\u00ac'
+	ralt:	'|'
 }
