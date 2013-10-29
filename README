@@ -1,3 +1,9 @@
+
+In Android 4.3 this keyboard is somewhat obsoleted by the provision of a built-in Android keyboard layout
+for English (UK). The project still exists primarily because it can serve as an example - the online
+documentation for keyboard handling in Android is rather poor.
+
+
 1. This requires Android 4.1 (API level 16) or later, it was tested on a Nexus 7
 
 2. You need some way to connect a real hardware keyboard, preferably a full PC-style keyboard
@@ -14,11 +20,4 @@
 5. Most keys on a UK keyboard should now behave as labelled. e.g. Shift + 2 should give the double quote "
    and AltGr+4 should give a Euro symbol €
 
-6. However, the "extra" key not present on US keyboards is not mapped sensibly by Android. It's treated
-   identically to the backslash key instead. On a UK keyboard this key usually has # and ~ on it. The Linux
-   kernel knows the two keys are different, but Android does not, so it will require further work to fix this.
-
-7. If you have any insight into how best to work around this limitation in Android 4.1+ please let me know
-   via GitHub, alternatively please let the Android team know that there's a good reason why Linux encodes
-   this key separately and they should do the same even if the US keyboard layout treats these two keys the
-   same.
+6. Let me know if there are any other symbols you expect from a UK keyboard.
