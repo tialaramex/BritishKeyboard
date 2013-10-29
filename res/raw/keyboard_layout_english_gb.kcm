@@ -1,8 +1,9 @@
 # British QWERTY keyboard layout
-# missing handling of 102nd key which contains hash and tilde
 # UTF-8 encoded
 # Nick Lamb - 2012-12-23
+# M.Meisser - 2013-10-26
 type OVERLAY
+map key 43 POUND
 key 2 {
 	label:	'2'
 	base:	'2'
@@ -16,12 +17,20 @@ key 3 {
 key 4 {
 	label:	'4'
 	base:	'4'
+	shift:	'$'
 	ralt:	'\u20ac'
 }
 key APOSTROPHE {
 	label:	'\''
 	base:	'\''
 	shift:	'@'
+}
+key POUND {
+	label:	'#'
+	base:	'#'
+	shift:	'~'
+	ralt:	'\\'
+	shift+ralt:	'|'
 }
 key GRAVE {
 	label:	'`'
